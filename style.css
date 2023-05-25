@@ -4,23 +4,47 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 body{
     height: 100vh;
     width: 100vw;
     font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+    background-color: antiquewhite;
 }
 
 header{
-    height: 20%;
+    height: 10%;
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-#header{
+header.active{
+    height: 20%;
+}
+
+header.active #container{
     height: 50%;
+}
+
+header.active #barra1{
+    width: 100%;
+    transform: rotate(45deg) translateY(10px);
+}
+
+header.active #barra2{
+    transform: rotate(-45deg) translateY(-10px);
+}
+
+header.active nav{
+    display: block;
+}
+
+#container{
+    height: 100%;
     width: 100%;
     padding: 0 1em;
     display: flex;
@@ -33,6 +57,7 @@ header{
     width: 40%;
     padding: 1em;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #menu{
@@ -42,12 +67,14 @@ header{
     flex-direction: column;
     justify-content: space-around;
     align-items: end;
+    cursor: pointer;
 }
 
 .icone-menu{
     height: 10%;
     border-radius: 1em;
-    background-color: black;
+    background-color: darkslategray;
+    transition: .5s;
 }
 
 #barra1{
@@ -59,9 +86,10 @@ header{
 }
 
 nav{
+    display: none;
     height: 50%;
     width: 100%;
-    border: .1em solid lightgray;
+    background-color: rgba(0, 0, 0, 0.030)
 }
 
 #nav-list{
@@ -70,6 +98,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    cursor: pointer;
 }
 
 .nav-items{
@@ -83,16 +112,22 @@ nav{
     background-color: rgba(0, 0, 0, 0.116);
 }
 
-section{
+#sobre{
     width: 100%;
-    height: 60%;
+    height: 80%;
     padding: 1em;
-    background-color: lightgray;
+    background-color: rgba(0, 0, 0, 0.055);
+}
+
+h1{
+    width: 100%;
+    margin-top: .5em;
+    font-size: 3em;
 }
 
 #description{
-    margin-top: 2em;
-    height: 90%;
+    margin-top: 3em;
+    height: 60%;
     width: 1005;
     display: flex;
     justify-content: space-between;
@@ -100,11 +135,12 @@ section{
 
 section p {
     margin-top: 1em;
-    width: 54%;
+    width: 52%;
+    height: 80%;
 }
 
 #foto{
-    width: 45%;
-    height: 60%;
+    width: 46%;
+    height: 70%;
     background-color: darkslategray;
 }
