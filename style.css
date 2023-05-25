@@ -30,11 +30,11 @@ header.active #container{
 
 header.active #barra1{
     width: 100%;
-    transform: rotate(45deg) translateY(10px);
+    transform: rotate(45deg) translateY(.7em);
 }
 
 header.active #barra2{
-    transform: rotate(-45deg) translateY(-10px);
+    transform: rotate(-45deg) translateY(-.7em);
 }
 
 header.active nav{
