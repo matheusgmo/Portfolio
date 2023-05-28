@@ -6,15 +6,6 @@
     box-sizing: border-box;
 }
 
-::-webkit-scrollbar{
-    width: 2vw;
-    display: none;
-}
-
-::-webkit-scrollbar-thumb{
-    background-color: gray;
-}
-
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -23,7 +14,7 @@ body{
     position: absolute;
     display: grid;
     background-color: aliceblue;
-    grid-template-columns: 98vw;
+    grid-template-columns: 96.5vw;
     grid-template-rows: 10vh 60vh 50vh 10vh;
 }
 
