@@ -1,0 +1,44 @@
+:root{
+    --preto: #060B0F;
+    --cinza: #999999;
+    --branco: #F3F6F6;
+    --azul1: #324A5F;
+    --azul2: #0FA3B1;
+}
+
+header{
+    padding: 10px;
+    background-color: var(--azul1);
+    color: var(--branco);
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+
+#logo{
+    height: 30px;
+    width: 80px;
+    background-color: var(--branco);
+    grid-row: 1;
+    grid-column: 1;
+}
+
+nav{
+    margin-top: 30px;
+    display: none;
+    grid-row: 2;
+    grid-column: 1 / span 2;
+    justify-self: end;
+    font: 1.3em bold;
+}
+
+.navMenu:hover{
+    background-color: rgba(255, 255, 255, 0.219);
+}
+
+.navMenu{
+    margin-left: 10px;
+    padding: 10px;
+    cursor: pointer;
+}

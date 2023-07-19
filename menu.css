@@ -1,0 +1,16 @@
+#menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-row: 1;
+    grid-column: 2;
+    justify-self: end;
+    cursor: pointer;
+}
+
+.iconeMenu{
+    width: 50px;
+    height: 5px;
+    background-color: var(--branco);
+    border-radius: 10px;
+}
