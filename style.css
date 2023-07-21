@@ -133,7 +133,7 @@ nav{
 
 #sobre{
     padding: 10px;
-    height: 460px;
+    height: 500px;
     color: var(--preto);
     display: flex;
     flex-direction: column;
