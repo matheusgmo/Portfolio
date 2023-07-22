@@ -51,7 +51,7 @@
     transition: .3s;
 }
 
-.card:active{
+.card:hover{
     width: 400px;
 }
 
