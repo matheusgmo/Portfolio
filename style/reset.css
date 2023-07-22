@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --preto: #202022;
+    --cinza: #a0a0a0;
+    --cinzaEscuro: #646464;
+    --branco: #ececec;
+    --azulClaro: #00BBC9;
+    --azulEscuro: #00747C;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+    background-color: var(--branco);
+    color: var(--preto);
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    line-height: normal;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+}

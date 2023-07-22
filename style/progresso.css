@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --preto: #202022;
+    --cinza: #a0a0a0;
+    --cinzaEscuro: #646464;
+    --branco: #ececec;
+    --azulClaro: #00BBC9;
+    --azulEscuro: #00747C;
+}
+
+#barraProgresso{
+    width: 300px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: var(--branco);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.384);
+}
+
+#progressoHTML{
+    position: absolute;
+    width: 290px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: var(--azulClaro);
+    transform: translateY(-30px);
+}
+
+#progressoCSS{
+    position: absolute;
+    width: 250px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: var(--azulClaro);
+    transform: translateY(-30px);
+}
+
+#progressoJS{
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: var(--azulClaro);
+    transform: translateY(-30px);
+}

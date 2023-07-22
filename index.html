@@ -4,20 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/menuNav.css">
+    <link rel="stylesheet" href="style/progresso.css">
+    <link rel="stylesheet" href="style/projetos.css">
 </head>
 <body>
 
     <div id="container">
 
+        <!-- HEADER -->
+
         <header id="header">
 
-            <div id="logo"><img src="Matheus Moraes.png" alt=""></div>
+            <div id="logo"><img src="midia/Matheus Moraes.png" alt=""></div>
+
+            <!-- MENU -->
 
             <div id="menu">
                 <div class="iconeMenu" id="barra1"></div>
                 <div class="iconeMenu" id="barra2"></div>
             </div>
+
+            <!-- NAV -->
 
             <nav>
                 <ul id="navList">
@@ -38,6 +48,8 @@
 
         </header>
 
+        <!-- APRESENTAÇÕES -->
+
         <section id="sobre">
             <h1>Olá, Eu sou Matheus Moraes</h1>
 
@@ -47,9 +59,12 @@
             <button id="contatoBtn"><a href="mailto:matheusmoraes.gb19@gmail.com">Entre em Contato</a></button>
         </section>
 
+        <!-- HABILIDADES -->
+
         <section id="habilidades">
             <h2>Habilidades</h2>
             <ul>
+                <!-- BARRAS DE PROGRESSO -->
                 <li>
                     <h3>HTML S+</h3>
                     <div id="barraProgresso"></div>
@@ -65,6 +80,7 @@
                     <div id="barraProgresso"></div>
                     <div id="progressoJS"></div>
                 </li>
+                <!-- TAGS -->
                 <li>
                     <h3>Outros:</h3>
                     <ul id="outros">
@@ -76,58 +92,84 @@
                         <li class="tag">Git</li>
                         <li class="tag">GitHub</li>
                         <li class="tag">VsCode</li>
-                        <li class="tag">Gimp</li>
-                        <li class="tag">php</li>
                     </ul>
                 </li>
             </ul>
         </section>
 
-        <section id="projetos">
+        <!-- PROJETOS -->
+
+        <aside id="projetos">
             <h2>Projetos</h2>
             <div id="slider">
 
-                <a href="https://matheusgmo.github.io/projeto-login/">
-                    <div class="card" id="login"></div>
-                </a>
+                <div class="card" id="login">
+                    <a href="https://matheusgmo.github.io/projeto-login/">
+                        <img src="midia/login.png" alt="">
+                    </a>
+                    <figure>
+                        <h3>Projeto Login</h3>
+                        <p>Esse projeto é minha primeira tentativa de criar uma pagina de login responsivo, usando apenas HTML CSS e JavaScript.</p>
+                    </figure>
+                </div>
 
-                <a href="https://matheusgmo.github.io/Projeto-Social/">
-                    <div class="card" id="social"></div>
-                </a>
-            
-                <a href="https://matheusgmo.github.io/Projeto-Cordel/">
-                    <div class="card" id="cordel"></div>
-                </a>
+                <div class="card" id="social">
+                    <a href="https://matheusgmo.github.io/Projeto-Social/">
+                        <img src="midia/social.png" alt="">
+                    </a>
+                    <figure>
+                        <h3>Projeto Rede Social</h3>
+                        <p>Nesse projeto eu aplico meus conhecimentos sobre iframe criando um modelo de celular funcional.</p>
+                    </figure>
+                </div>
 
-                <a href="https://matheusgmo.github.io/projeto-android/">
-                    <div class="card" id="android"></div>
-                </a>
+                <div class="card" id="cordel">
+                    <a href="https://matheusgmo.github.io/Projeto-Cordel/">
+                        <img src="midia/cordel.png" alt="">
+                    </a>
+                    <figure>
+                        <h3>Projeto Cordel Moderno</h3>
+                        <p>Usando o efeito paralax, construi esse site que para transcrever a obra Cordel Moderno de Milton Duarte.</p>
+                    </figure>
+                </div>
 
+                <div class="card" id="android">
+                    <a href="https://matheusgmo.github.io/projeto-android/">
+                        <img src="midia/android.png" alt="">
+                    </a>
+                    <figure>
+                        <h3>Projeto Android</h3>
+                        <p>Esse projeto simula um dite de curiosidades sobre tecnologia e uma postagem sobre a historia do sistema android.</p>
+                    </figure>
+                </div>
+
+                <!-- PROJETOS EM BRANCO -->
                 <div class="card"></div>
                 <div class="card"></div>
+
             </div>
-        </section>
+        </aside>
 
         <footer id="contato">
 
             <h2>contato</h2>
 
             <a href="https://www.instagram.com/thea__nemesis/">
-                <img src="instagram.png" alt="">
+                <img src="midia/instagram.png" alt="">
             </a>
 
             <a href="https://www.linkedin.com/in/matheusmoraesgb/">
-                <img src="linkedin.png" alt="">
+                <img src="midia/linkedin.png" alt="">
             </a>
 
             <a href="https://github.com/matheusgmo">
-                <img src="github-sign.png" alt="">
+                <img src="midia/github-sign.png" alt="">
             </a>
 
         </footer>
 
     </div>
 
-    <script src="script.js"></script>
+    <script src="scripts/menu.js"></script>
 </body>
 </html>
