@@ -35,7 +35,7 @@ header{
 
 #sobre{
     padding: 10px;
-    height: 500px;
+    height: 550px;
     color: var(--preto);
     display: flex;
     flex-direction: column;
@@ -56,7 +56,7 @@ header{
 }
 
 #contatoBtn{
-    margin: 30px 10px 0 0;
+    margin: 30px 10px 20px 0;
     width: 160px;
     height: 60px;
     background-color: tomato;
