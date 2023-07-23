@@ -1,0 +1,48 @@
+@media screen and (min-width: 1000px){
+    header{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #menu{
+        display: none;
+    }
+    nav{
+        display: block;
+        grid-row: 1;
+        grid-column: 2 / span 2;
+    }
+    .navItems{
+        height: 100px;
+    }
+    #sobre>p{
+        width: 50%;
+    }
+    #sobre>img{
+        display: block;
+    }
+    #contatoBtn{
+        width: 200px;
+        margin: 80px 0 0 100px;
+        align-self: start;
+    }
+    #outros{
+        grid-template-columns: repeat(8, 1fr);
+        gap: 10px;
+    }
+    .tag{
+        width: 100px;
+    }
+}
+
+
+@media screen and (min-width: 1400px){
+    #sobre>h1{
+        margin-left: 80px;
+    }
+    #sobre>p{
+        margin-left: 80px;
+        width: 50%;
+    }
+    #sobre>img{
+        margin-right: 100px;
+    }
+}

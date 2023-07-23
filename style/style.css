@@ -55,11 +55,22 @@ header{
     font: italic 1.3em Arial, sans-serif;
 }
 
+#sobre>img{
+    display: none;
+    position: absolute;
+    margin: 10px 20px;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    align-self: flex-end;
+    background-color: var(--cinzaEscuro);
+}
+
 #contatoBtn{
     margin: 30px 10px 20px 0;
     width: 160px;
     height: 60px;
-    background-color: tomato;
+    background-color: #C92C39;
     border-radius: 10px;
     font: 1.2em 'Bebas Neue', sans-serif;
     align-self: flex-end;
@@ -103,7 +114,7 @@ header{
     width: 80px;
     height: 30px;
     padding: 3px;
-    border-radius: 2px;
+    border-radius: 5px;
     background-color: var(--preto);
     color: var(--branco);
     font: .8em 'Bebas Neue', sans-serif;
