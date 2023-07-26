@@ -21,7 +21,7 @@
 
 #progressoHTML{
     position: absolute;
-    width: 90%;
+    width: 86%;
     height: 20px;
     border-radius: 10px;
     background-color: var(--azulClaro);

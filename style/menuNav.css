@@ -14,7 +14,7 @@
 
 #menu{
     height: 40px;
-    width: 50px;
+    width: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -27,21 +27,21 @@
 }
 
 .iconeMenu{
-    height: 4px;
+    height: 2px;
     border-radius: 10px;
     background-color: var(--branco);
     transition: .5s;
 }
 
 #barra1{
-    width: 40px;
+    width: 30px;
     align-self: flex-end;
 }
 
 /* ANIMAÇÃO MENU */
 
 .active>#menu>#barra1{
-    width: 50px;
+    width: 40px;
     transform: translateY(10px) rotate(45deg);
 }
 
@@ -60,7 +60,6 @@ nav{
 #navList{
     display: flex;
     justify-content: space-around;
-    color: var(--branco);
 }
 
 #navList>a{
@@ -78,12 +77,12 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    font: 1.3em 'Bebas Neue', sans-serif;
+    font: 1.2em 'Bebas Neue', sans-serif;
     color: var(--branco);
 }
 
 .navItems:hover{
-    background-color: rgba(255, 255, 255, 0.24);
+    background-color: rgba(255, 255, 255, 0.068);
     transition: .2s;
 }
 

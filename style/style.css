@@ -23,14 +23,20 @@ header{
     grid-column: 1;
     margin: 20px;
     cursor: pointer;
-    display: flex;
 }
 
-#logo>p{
-    margin-left: 10px;
-    align-self: center;
-    font: 2em 'Bebas Neue', sans-serif;
-    color: var(--branco);
+#logo>a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font: 1.6em 'Bebas Neue', sans-serif;
+}
+
+#logo>a>h1,i{
+    display: block;
+    margin-left: 8px;
+    font-size: unset;
 }
 
 #sobre{
@@ -46,13 +52,13 @@ header{
 
 #sobre>h1{
     margin: 10px 20px;
-    font: 3em 'Bebas Neue', sans-serif;
+    font: 2.8em 'Bebas Neue', sans-serif;
 }
 
 #sobre>p{
     margin: 10px 20px;
-    width: 80%;
-    font: italic 1.3em Arial, sans-serif;
+    width: 70%;
+    font: italic 1.2em Arial, sans-serif;
 }
 
 #sobre>img{
@@ -75,10 +81,6 @@ header{
     font: 1.2em 'Bebas Neue', sans-serif;
     align-self: flex-end;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
-}
-
-#contatoBtn>a{
-    color: white;
 }
 
 #habilidades{
@@ -130,10 +132,13 @@ footer{
 
 footer>h2{
     font: 1.8em 'Bebas Neue', sans-serif;
+    margin-bottom: .5rem;
     color: var(--branco);
 }
 
-footer>a>img{
-    margin: 20px 10px 20px 0px;
+footer>a>i{
+    display: inline-block;
+    font-size: 2.5rem;
+    color: var(--branco); 
     cursor: pointer;
 }
